@@ -1,0 +1,93 @@
+body{
+    background:linear-gradient( to right , rgb(92, 68, 130) , oklab(39.906000000000006% 0.03998 -0.07719))
+
+
+
+}
+
+
+
+
+#container{
+width: 400px;
+height: 550px;
+background-color: white;
+box-shadow: 10px 15px 25px rgb(154, 120, 192);
+margin-top: -10px;
+
+
+}
+.img{
+background: url(images/jillwellington-waffles-5192625.jpg);
+background-repeat: no no-repeat;
+height: 250px;
+background-size: cover;
+box-shadow: 0px 0px 10px rgb(29, 29, 29);
+
+}
+.img :hover{
+    background: url(images/jusminmari-waffle-4608843_1920.jpg);
+    background-repeat: no no-repeat;
+height: 250px;
+background-size: cover;
+margin-bottom: 40px;
+cursor: pointer;
+margin-top: -19px;
+box-shadow: 0px 0px 10px rgb(29, 29, 29);
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    color: rgb(22, 6, 55);
+
+}
+.head2{
+margin-top: 20px ;
+margin-right:195px ;
+color: rgb(58, 4, 58);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    opacity: 80px;
+    
+}
+.icons{
+display: flex;
+gap: 20px;
+justify-content: space-evenly;
+}
+.num{
+    color: rgb(58, 4, 58);
+    font-weight: bold;
+font-size: 30px;
+
+}
+.names{
+    font-family: 'Courier New', Courier, monospace;
+color:rgb(58, 4, 58);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+    font-size: 15px;
+    color: rgb(106, 108, 108);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+button{
+background-color:  rgb(58, 4, 58);
+color: white;
+width: 300px;
+height: 40px;
+font-size: 15px;
+border-radius: 40px;
+border: 3px solid rgb(58, 4, 58);
+
+}
+button:hover{
+    background-color: transparent;
+    color: rgb(58, 4, 58);
+    cursor: pointer;
+}
